@@ -1,0 +1,79 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# ============================================
+# Julia compiled files and temporary artifacts
+# ============================================
+*.ji
+*.julia
+*.cov
+*.mem
+*.cache
+*.tmp
+
+# ============================================
+# Julia package environments
+# (Keep Manifest.toml if you want reproducibility)
+# ============================================
+/.manifest/
+/.manifest/*
+/packages/*
+
+# ============================================
+# Pluto notebooks temporary files
+# ============================================
+*.pluto.jl#*
+
+# ============================================
+# VSCode / IDE-related
+# ============================================
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+
+# ============================================
+# Jupyter
+# ============================================
+.ipynb_checkpoints/
+
+# ============================================
+# Build/Artifacts from Pkg.jl (generated)
+# ============================================
+/deps/build/
+/deps/artifacts/
+/deps/usr/
+/deps/scratch/
+
+# ============================================
+# Logs / temp
+# ============================================
+logs/
+*.log
+*.jld2
+
+# ============================================
+# Output directories common in Julia repos
+# ============================================
+/docs/build/
+/docs/site/
+/test/tmp/
+/test/output/
+
+# ============================================
+# CondaPkg
+# ============================================
+.CondaPkg/
+
+# ============================================
+# Others
+# ============================================
+external/
+gallery/
+*.gif
+*./jld2
+*.tikz
+.cursor/
