@@ -1,10 +1,12 @@
 # i²PD: Implicit Interior Primal-Dual Optimization
 
+[![arXiv](https://img.shields.io/badge/arXiv-2604.00364-b31b1b.svg)](https://arxiv.org/abs/2604.00364)
+
 <!-- For the algorithmic details see [this manuscript](https://www.overleaf.com/read/gmkksfqnqkff#87d1ef). -->
 
 **i2pd.jl** is a Julia implementation of a primal-dual interior point solver for convex optimization problems using a novel implicit representation for complementarity.
 
-**For more information on the algorithmic details see our paper ([arXiv](https://jonarriza96.github.io/)).**
+**For more information on the algorithmic details see our paper ([preprint](https://arxiv.org/pdf/2604.00364)).**
 
 ## Installation
 
@@ -34,9 +36,17 @@ All the examples can be found in [here](examples/).
 ## Citing
 
 ```
-paper coming soon
+@misc{arrizabalaga2026implicitprimaldualinteriorpointmethods,
+      title={Implicit Primal-Dual Interior-Point Methods for Quadratic Programming},
+      author={Jon Arrizabalaga and Zachary Manchester},
+      year={2026},
+      eprint={2604.00364},
+      archivePrefix={arXiv},
+      primaryClass={math.OC},
+      url={https://arxiv.org/abs/2604.00364},
+}
 ```
 
-## License
+<!-- ## License
 
-TBD
+TBD -->
